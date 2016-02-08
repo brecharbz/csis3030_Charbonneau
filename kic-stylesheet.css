@@ -1,0 +1,98 @@
+/*------------------------------------------------------------*
+**  Global
+**------------------------------------------------------------*/
+body {
+
+	font-family: tahoma, serif;
+	font-size: 75%;
+	text-align: center; /* IE Fix */
+	margin: 0px;
+	color: #000;
+	}
+
+
+/*------------------------------------------------------------*
+**  Container
+**------------------------------------------------------------*/	
+
+	
+/*------------------------------------------------------------*
+**  Header
+**------------------------------------------------------------*/		
+#header {
+	background: #f664af url(images/pinkVS.jpg) repeat-x;
+	padding: 43px 0;
+	}	
+#header h1, 
+#header h2 { 	
+	margin: 0;
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	cursor: default;
+	}	
+#header h2 { 	color: #f664af; }	
+
+/*------------------------------------------------------------*
+**  Nav
+**------------------------------------------------------------*/
+#nav { margin: 0; padding: 0; background-color: #fff; }
+#nav li {
+	list-style-type: none;
+	display: inline;
+	line-height: 30px;
+	margin-right: 5px;
+	}		
+#nav li a { 
+	text-decoration: none; 
+	color: #f664af;
+	border-bottom: 0;
+	padding: 9px 8px 0;
+	font-size: 1.1em;
+	text-transform: lowercase;
+	}
+#nav li a:hover { border-top: 5px solid #f664af; }
+#nav li a.on { border-top: 5px solid #f664af; }
+
+/*------------------------------------------------------------*
+**  Content
+**------------------------------------------------------------*/
+#content {
+	line-height: 25px; 
+	text-align: justify; 
+	word-spacing: 2px;
+	text-align: left; /* Cancel IE Fix */	
+	/* background: #fff url(img/bg_line.gif) no-repeat 50% 2px; */
+	padding: 10px 30px;
+	font-size: 1.1em;
+	}	
+#content h3 { 
+	font-size: 1em; 
+	color: #f664af; 
+	margin: 0; 
+	cursor: default;
+	}
+#content p { margin-top: 5px; margin-bottom: 10px; text-indent: 3em; }
+#content blockquote { 
+	background: #F0F9F5; 
+	margin: 10px 0; 
+	padding: 10px 20px;
+	border-top: 1px solid #CEECDE;
+	border-bottom: 1px solid #CEECDE;
+	}
+#content blockquote p { margin: 0; text-indent: 0; }	
+/* #content ul li { list-style-image: url(img/li_bullet.gif)	; } */
+/*------------------------------------------------------------*
+**  Footer
+**------------------------------------------------------------*/
+#footer {
+	background: #f664af url(images/pinkVS.jpg) repeat-x;
+	text-align: center;	
+	color: #fff;
+	font-size: 0.05em;
+	padding: 10px;
+	line-height: 16px;
+	}
+	
+#footer a { text-decoration: none; color: #7CCAB1; border-bottom: 1px solid #7CCAB1; }
+#footer a:hover { border-bottom: 1px solid #fff; color: #fff; }

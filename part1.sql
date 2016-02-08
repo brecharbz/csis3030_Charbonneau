@@ -1,0 +1,7 @@
+insert into categories (category_name) values ('bras');  
+insert into categories (category_name) values ('panties');
+
+insert into products (category_id, product_name, price, quantity_remaining, description, image) values ('1' , 'Bombshell Bra' , 50.00 , 30 , 'The ultimate lift-loving push-up is better than ever with even softer padding for the most cleavage and fullness and a U-shaped ballet back for an ultra-comfy fit.' , 'images/bombshell.jpg' );
+insert into products (category_id, product_name, price, quantity_remaining, description, image) values ('1' , 'Unlined Date Bra' , 36.50 , 30 , 'Featuring new floral lace that’s prettier than ever, this unlined bra features underwire support that’s comfy for everyday.' , 'images/unlineddate.jpg' );
+insert into products (category_id, product_name, price, quantity_remaining, description, image) values ('2' , 'Sexy Cheeky' , 16.50 , 15 , 'A sweet way to show a little cheek. Trimmed in supersoft lace, this sexy little panty comes in a rainbow of colors and prints–why not flirt in them all?' , 'images/sexycheeky.jpg' );
+insert into products (category_id, product_name, price, quantity_remaining, description, image) values ('2' , 'Lacie Thong' , 14.50 , 15 , 'The world’s sexiest no-show thong in supersoft floral lace that’s invisible under clothing, now with a slimmer waistband.' , 'images/laciethong.jpg' );
