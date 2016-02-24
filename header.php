@@ -18,5 +18,4 @@
 		</div>
 		<ul id="nav">
 				<li><a href="index.php" title="Home">Home</a></li>
-				<li><a href="category_list.php" title="Shop">Shop</a></li>
 		</ul>
